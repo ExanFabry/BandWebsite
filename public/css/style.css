@@ -1,0 +1,44 @@
+body{
+  font-family: "Great Vibes", sans-serif;
+  margin: 0;
+  padding: 2%;
+  background-color: #000000;
+  color: white;
+}
+h1, p{
+  align-content: center;
+  justify-content: center;
+}
+h1{
+  padding-right: 1%;
+  font-size: xx-large;
+}
+h2{
+  font-size: x-large;
+}
+h3{
+  font-size: large;
+}
+
+/* Header */
+header{
+  display: flex;
+  align-content: center;
+}
+
+/* Main */
+.index-main-article{
+  display: flex;
+  align-content: center;
+  justify-content: center;
+}
+.index-main article{
+  padding: 2rem;
+}
+
+/* Footer */
+footer h2{
+  display: flex;
+  align-content: center;
+  justify-content: center;
+}
