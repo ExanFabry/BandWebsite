@@ -1,9 +1,12 @@
+/*Whole webpage*/
 body{
   font-family: "Great Vibes", sans-serif;
   margin: 0;
   padding: 2%;
   background-color: #000000;
   color: white;
+  line-height: 1.6;
+  overflow-x: hidden;
 }
 h1, p{
   align-content: center;
@@ -19,26 +22,27 @@ h2{
 h3{
   font-size: large;
 }
-
-/* Header */
-header{
+footer h2, .index-main-article, #logoHeader{
   display: flex;
   align-content: center;
+  justify-content: center;
+}
+
+/* Header */
+header ul{
+  width: 100%;
+}
+header, header ul{
+  display: flex;
+}
+header li{
+  margin-right: 5%;
+}
+#logoHeader{
+  width: 15%;
 }
 
 /* Main */
-.index-main-article{
-  display: flex;
-  align-content: center;
-  justify-content: center;
-}
 .index-main article{
   padding: 2rem;
-}
-
-/* Footer */
-footer h2{
-  display: flex;
-  align-content: center;
-  justify-content: center;
 }
